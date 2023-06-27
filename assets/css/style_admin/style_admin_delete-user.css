@@ -1,0 +1,45 @@
+.container {
+    margin-left: 2%;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 2%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"],
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 2%;
+}
+
+.return:hover,
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+    color: white;
+}

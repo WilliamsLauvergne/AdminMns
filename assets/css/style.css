@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(16, 21, 47);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    margin-top: 70px;
+}
+
+/* style nav-bar */
+
+header #logo_mns {
+    width: 50px;
+    padding-left: 1%;
+}
+#user_logo {
+    width: 40px;
+}
+#bonjour_user {
+    display: flex;
+    align-items: center;
+    color: rgb(16, 21, 47);
+    font-weight: bold;
+}
+
+#disconnect {
+    width: 40px;
+    padding-right: 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 101, 28);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+/* Style pour les écrans larges */
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(255, 101, 28);
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    line-height: 70px;
+}
+
+/* Style pour les écrans plus petits */
+@media screen and (max-width: 600px) {
+    footer {
+        height: auto;
+        line-height: normal;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
